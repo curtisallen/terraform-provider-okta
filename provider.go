@@ -11,7 +11,6 @@ import (
 
 // Provider entry point for okta provider
 func Provider() terraform.ResourceProvider {
-	//func Provider() *schema.Provider {
 	return &schema.Provider{
 		Schema: map[string]*schema.Schema{
 			"organization": &schema.Schema{
